@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- MEDIVAVINE/JOURNEY: paste ad network script here -->
+  <title>The Flower Patch — More Blooms, Less Guesswork</title>
+  <meta name="description" content="The Flower Patch helps beginner gardeners grow, cut, and arrange beautiful flowers — named varieties, exact timing, and honest advice about which 'easy' flowers are actually fussy.">
+  <meta property="og:title" content="The Flower Patch — More Blooms, Less Guesswork">
+  <meta property="og:description" content="Grow, cut, and arrange flowers with named varieties, exact timing, and honest advice — cutting gardens, deadheading, conditioning, and arrangements that look pro.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flower-patch.pages.dev/">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+  /* Set theme before first paint: stored choice, else OS preference. */
+  (function(){try{var t=localStorage.getItem('flowerpatch-theme');if(!t){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+  </script>
+  <link rel="canonical" href="https://flower-patch.pages.dev/">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="The Flower Patch — home">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="A simple five-petal flower">
+        <g fill="none" stroke="#a63c68" stroke-width="2.5">
+          <ellipse cx="20" cy="9" rx="4.5" ry="6"/>
+          <ellipse cx="30.5" cy="16.6" rx="4.5" ry="6" transform="rotate(72 30.5 16.6)"/>
+          <ellipse cx="26.5" cy="28.9" rx="4.5" ry="6" transform="rotate(144 26.5 28.9)"/>
+          <ellipse cx="13.5" cy="28.9" rx="4.5" ry="6" transform="rotate(216 13.5 28.9)"/>
+          <ellipse cx="9.5" cy="16.6" rx="4.5" ry="6" transform="rotate(288 9.5 16.6)"/>
+        </g>
+        <circle cx="20" cy="20" r="4.5" fill="#e8b06a"/>
+      </svg>
+      <span class="brand-name">The Flower Patch<span class="brand-tag">More blooms, less guesswork.</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16"/>
+      </svg>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="#articles">Start Here</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="disclosure.html">Disclosure</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="site-search" data-search>
+        <label class="visually-hidden" for="siteSearchInput">Search articles</label>
+        <input class="site-search-input" id="siteSearchInput" type="search" placeholder="Search articles&hellip;" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="siteSearchResults" aria-autocomplete="list">
+        <div class="site-search-results" id="siteSearchResults" role="listbox" aria-label="Search results" hidden></div>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Grow it, cut it, arrange it</span>
+      <h1>The Flower Patch</h1>
+      <p class="tagline">More blooms, less guesswork.</p>
+      <p class="pitch">You want a cutting garden and nicer arrangements without florist prices — and every guide that told you to just "plant in full sun" has let you down. We name exact varieties ('Benary's Giant' zinnias, 'Sensation' cosmos, 'ProCut Gold' sunflowers), give you exact timing and spacing, and tell you honestly which "easy" flowers are secretly fussy. Growing, cutting, conditioning, arranging — the whole path from seed packet to vase.</p>
+    </div>
+  </section>
+
+  <section class="section" id="articles" aria-labelledby="articles-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="articles-heading">Latest articles</h2>
+      </div>
+      <p>New growing guides publish daily — the first batch (our cut-flower starter cluster: garden planning, easy seeds, the zinnias-vs-cosmos-vs-sunflowers showdown, vase-life science, deadheading, fall bulbs, and arranging basics) is on its way. Check back soon; in the meantime, here's what this patch is all about:</p>
+      <ul class="card-grid">
+      </ul>
+    </div>
+  </section>
+
+  <section class="section band about" id="about" aria-labelledby="about-heading">
+    <div class="wrap">
+      <h2 id="about-heading">Start here</h2>
+      <p>The Flower Patch is for beginner flower gardeners who are done with vibes-based advice. Our rule: if we name a plant, we name the <em>variety</em> — the actual cultivar, with sowing depth, spacing, days to bloom, and an honest difficulty rating. We cover four things: growing flowers from seed and bulb, planning a cut-flower garden, the care skills (deadheading, feeding, dividing) that keep blooms coming, and cutting, conditioning, and arranging so your harvests look like a florist made them.</p>
+      <p>We also tell you which popular "beginner" flowers will fight you — sweet peas want cool starts, poppies hate transplanting, and nobody's supermarket orchid survived because of anything you did. Start with our cutting-garden starter guides above when they land, and you'll have armloads of blooms by midsummer.</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="newsletter-heading">
+    <div class="wrap">
+      <div class="newsletter-card">
+        <h2 id="newsletter-heading">The Sunday Seedling</h2>
+        <p>One variety pick, one growing tip, one arrangement idea — every Sunday morning. Five minutes, no fluff.</p>
+        <!-- NEWSLETTER: paste Beehiiv/Substack embed here -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">The Flower Patch</div>
+        <p class="footer-tag">More blooms, less guesswork.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#articles">Start here</a></li>
+          <li><a href="#articles">All articles</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <div class="footer-note">
+        <h3>The fine print</h3>
+        <p>Some links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you — it's how the lights stay on.</p>
+        <p><a href="disclosure.html" class="footer-note-link">Read our full affiliate &amp; advertising disclosure →</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 The Flower Patch. All rights reserved.</span>
+      <span><a href="disclosure.html">Affiliate Disclosure</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
